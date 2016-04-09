@@ -1,5 +1,5 @@
 #!/bin/bash
 
-echo "The time is:"
+echo "The local time is:"
 date
 
