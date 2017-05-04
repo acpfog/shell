@@ -12,3 +12,5 @@ For an invalidation call we nead a string with objects separated by spaces:
 ```
 /dir1/file1.bin /dir2/file2.bin
 ```
+
+Script `fix_ssh.sh` contains a function for update a path to ssh-agent socket
