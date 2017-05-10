@@ -1,6 +1,6 @@
 # My shell scripts for different tasks
 
-### `aws_sync.sh` synchronizes a local folder with a remote S3 bucket
+### `aws_sync.sh` synchronizes a local folder with a remote S3 bucket connected to CloudFront
 
 Script `aws_sync.sh` was written for syncing files between a Linux server and an AWS S3 bucket.
 The bucket is used for a content distribution through AWS CloudFront.
@@ -16,6 +16,6 @@ For an invalidation call we nead a string with objects separated by spaces:
 /dir1/file1.bin /dir2/file2.bin
 ```
 
-### `fix_ssh.sh` updates a path stored in SSH_AUTH_SOCK
+### `fix_ssh.sh` updates a path stored in SSH_AUTH_SOCK for screen's sessions
 
 Script `fix_ssh.sh` contains a function for update a path to ssh-agent socket
