@@ -21,3 +21,10 @@ For an invalidation call we nead a string with objects separated by spaces:
 When ssh-agent is used with GNU screen, it stops working after a screen's session reattaching.
 A path to a ssh-agent's socket stored in the SSH_AUTH_SOCK environment variable should be updated.
 Script `fix_ssh.sh` contains a function for updating the socket location.
+
+### `speed_test.sh` tests a download speed and time from several servers
+
+We have five servers with some content distributed by http.
+Servers have different names under one company domain and the names are  stored in the array.
+Using `speed_test.sh` you can check how fast an example object could be downloaded from those servers.
+
